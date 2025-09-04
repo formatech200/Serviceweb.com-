@@ -1,0 +1,111 @@
+<header>
+  <h1>🌐 Formatech – Création de Sites Web</h1>
+  <p>Donnez un site web professionnel à votre entreprise</p>
+</header>
+
+<section>
+  <h2>💻 Nos Offres</h2>
+  <p>Choisissez l’offre qui correspond à vos besoins. Paiement flexible (MonCash, virement, Wise).</p>
+
+  <div class="packs">
+    <div class="card">
+      <h3>Pack Basic – 1 à 3 pages</h3>
+      <div class="price">50 – 100 USD<br><small>≈ 7 000 – 14 000 HTG</small></div>
+      <div class="features">
+        ✅ Accueil, À propos, Contact <br>
+        ✅ Bouton WhatsApp + Email
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Pack Standard – 5 à 7 pages</h3>
+      <div class="price">150 – 200 USD<br><small>≈ 21 000 – 28 000 HTG</small></div>
+      <div class="features">
+        ✅ Accueil, Services, Galerie, Contact <br>
+        ✅ Formulaire de contact <br>
+        ✅ Design personnalisé
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Pack Premium – Site avancé</h3>
+      <div class="price">250 – 300 USD<br><small>≈ 35 000 – 42 000 HTG</small></div>
+      <div class="features">
+        ✅ Catalogue produits / Blog <br>
+        ✅ Formulaires avancés <br>
+        ✅ Optimisation mobile et support
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  📧 Email : formatech200@gmail.com | 📱 WhatsApp : +509 4375 0836
+</footer>
+
+<a class="whatsapp-btn" href="https://wa.me/50943750836" target="_blank">WhatsApp</a>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #222;
+}
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.packs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+.price {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #000;
+}
+.features {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  color: #333;
+}
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
